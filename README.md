@@ -1,5 +1,6 @@
 ﻿***Biology Sample
 
+<<<<<<< HEAD
 **Introduction
 
 This is the sample to be used for testing purposes against the Custom Speech Service at https://cris.ai The biology sample is a great example of how powerful a custom language model can be for your application. 
@@ -19,3 +20,13 @@ During deployment of your custom model you can tick the ‘Offline Test’ optio
 ** Results
 
 As part of the results page you will see a set of numbers along with a list of transcriptions (as many as the audio files you uploaded). Read the transcriptions to get a feel of the quality of the results. The numbers serve as a comparison between the baseline model and the custom model that you created. They demonstrate transcription accuracy both from the baseline and the custom model. Remember that the transcriptions.tsv contains the correct transcriptions of all the audio files, so internally our system compares those against both the baseline and the custom models. The improvement over baseline for this sample is typically around 70% and the overall accuracy of the custom is close to 90%. Needless to say that with a richer language model accuracy can potentially go up.
+=======
+Cognitive Speech Service samples
+--------------------------------
+
+Here you can find a set of audio data and language data for testing the Microsoft Cognitive Services Custom Speech service.
+
+We have prepared some wav files, file trancsiptions and langauge data.
+Simply follow the description on the Custom Speech Service help page, prepare your data and try the service.
+
+>>>>>>> origin/master
