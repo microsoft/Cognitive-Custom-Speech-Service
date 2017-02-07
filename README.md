@@ -1,13 +1,40 @@
 ﻿
 # Cognitive Speech Service samples
 
-Here you can find a set of audio data and language data for testing the Microsoft Cognitive Services Custom Speech service.
+Here you can find a set of audio data and language data for testing the [Microsoft Cognitive Services Custom Speech service](http://cris.ai).
+
+## How it works?
+
+The samples are a collection of data, both acoustic and language, which you can use to try out the Custom Speech service. The audio files (.wav) and transcript files should help you to get started with the service.
+
+Simply clone this repository with 
+```
+git clone https://github.com/Microsoft/Cognitive-Custom-Speech-Service.git
+```
+on the comandline.
+
+Then go to the folder of the sample you like
+```
+cd <sample_folder>
+```
+If you have Powershell 5.0 installed you can use in Powershell the *Compress-Archive* cmdlet
+```
+Compress-Archive -Path '<sample_folder>\Test Data\Test Acoustic Data\*.wav' -DestinationPath data.zip
+```
+
+This will create a zip file containing all wav files without additional folder information as a flat list.
+
+If you do not have Powershell installed you can use a zip tool of your choice but you have to zip the files as a flat list without path information.
+
+Now, you have everthing prepared to get started with [Custom Speech service](http://cris.ai).
+
+There is a [help page](http://cris.ai/help) describing how to use the service or you can find some help [here](https://www.microsoft.com/cognitive-services/en-us/Custom-Speech-Service/documentation/Home).
 
 ## Biology Sample
 
 ### Introduction
 
-This is the sample to be used for testing purposes against the Custom Speech Service at https://cris.ai The biology sample is a great example of how powerful a custom language model can be for your application. 
+The biology sample is a great example of how powerful a custom language model can be for your application. 
 
 ### Data
 
