@@ -28,7 +28,7 @@ In this step you will prepare the data to be uploaded on the Speech to Text port
 2. From the menu named 'Custom Speech' click and select 'Adaptation Data'
 3. In the Adaptation Data View click 'Upload' button
 
-    ![The Upload View](../../../../Microsoft/Cognitive-Custom-Speech-Service/blob/master/media/Datasets.jpg)
+    ![The Upload View](../../../../Microsoft/Cognitive-Custom-Speech-Service/blob/master/media/Datasets.JPG)
 
 4. Type a frieldly name for your data set in the box 'Name'
 5. Optionally provide a description
