@@ -39,7 +39,7 @@ In this step you will prepare the data to be uploaded on the Speech to Text port
 
 The view will change back to the main "Datasets" view and the progress of the upload will be shown. Monitor the Status label. When it changes to completed the data can be used.
 
-![Dataset Uploaded View](media/DatasetUploaded.jpg)
+![Dataset Uploaded View](../../../../Microsoft/Cognitive-Custom-Speech-Service/blob/master/media/DatasetUploaded.JPG)
 
 Now let's do the same for the language data.
 
@@ -66,7 +66,7 @@ Adaptation is carried out for acoustic and language models in separate distinct 
 1. From the menu named 'Custom Speech' click and select 'Acoustic Model'
 2. In the Acoustic Model View click 'Create' button
 
-    ![Acoustic Model Creation View](media/AcousticModelCreationView.jpg)
+    ![Acoustic Model Creation View](../../../../Microsoft/Cognitive-Custom-Speech-Service/blob/master/media/AcousticModelCreationView.JPG)
 
 3. Provide a frieldy name to the model in the Name text box
 4. Optionally Provide a description 
@@ -86,7 +86,7 @@ Following the process we described for Data Import please upload the data set en
 1. From the menu named 'Custom Speech' click and select 'Accuracy Tests'
 2. In the Accuracy Tests View click 'Create' button
 
-    ![Accuracy Test Creation View](media/AccuracyTestCreationView.jpg)
+    ![Accuracy Test Creation View](../../../../Microsoft/Cognitive-Custom-Speech-Service/blob/master/media/AccuracyTestCreationView.JPG)
 
 3. Provide a frieldy name to the model in the Name text box
 4. Optionally Provide a description 
@@ -120,13 +120,13 @@ It is important to note here that a free subscription only provides quotas for t
 9. Select both the acoustic and the language model we adapted.
 10. Accept the terms and click 'Create'
 
-![Deployment Creation View](media/DeploymentCreationView.jpg)
+![Deployment Creation View](../../../../Microsoft/Cognitive-Custom-Speech-Service/blob/master/media/DeploymentCreationView.JPG)
 
 In the screen presented you see a table with all your deployments. You can observe the locale, name, description, the date it was created, its status and a list of actions represented by 4 links. 'Delete' enables you to delete the deployment at any time. You do not lose the models or any of the work we did earlier. 'Delete' basically decommissions the deployment and stops incurring charges. In addition you can 'Edit' the name and description fields. 'Details' show the endpoint details and finally -since we let the logging option to default- you can see an option to delete the log data. These are the audio uploaded to the endpoint as well as the transcriptions.
 
 Now let us have a closer look on the 'Details' link.
 
-![Deployment Details View](media/DeploymentDetails.jpg)
+![Deployment Details View](../../../../Microsoft/Cognitive-Custom-Speech-Service/blob/master/media/DeploymentDetails.JPG)
 
 You can view here table with the endpoint details for websocket and HTTP Rest access. At the top of the table you can view also the Subscrition Key which is used to authenticate access to that endpoint.
 
@@ -161,7 +161,7 @@ The SDK is fairly straight forward to use. In the code below we instantiate our 
 For a richer set of samples check out the ![Speech Services SDK()]
 
 # Conclusions
-* [Get Started](cognitive-services-custom-speech-get-started.md)
-* [FAQ](cognitive-services-custom-speech-faq.md)
-* [Glossary](cognitive-services-custom-speech-glossary.md)
+* [Get Started](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/get-started)
+* [Speech Service](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/)
+* [FAQ](https://docs.microsoft.com/en-us/azure/cognitive-services/speech-service/faq-stt)
 
