@@ -65,9 +65,6 @@ Adaptation is carried out for acoustic and language models in separate distinct 
 
 1. From the menu named 'Custom Speech' click and select 'Acoustic Model'
 2. In the Acoustic Model View click 'Create' button
-
-    ![Acoustic Model Creation View](../../../../Microsoft/Cognitive-Custom-Speech-Service/blob/master/media/AcousticModelCreationView.JPG)
-
 3. Provide a frieldy name to the model in the Name text box
 4. Optionally Provide a description 
 5. Pick the locale
