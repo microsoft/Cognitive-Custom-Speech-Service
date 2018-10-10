@@ -39,7 +39,7 @@ The biology sample is a great example of how powerful a custom language model ca
 ### Data
 
 The sample consist of approximately 150 statements about organisms that lived primarily in Triassic and Jurassic period. The names are in scientific form which rarely appear in everyday language. The facts are described in the ‘Language Data.txt’ file.
-In addition, the sample contains approximately 50 audio utterances (50 .wav files) which can be used to test the above model using the offline testing feature during deployment. There is a transcriptions.tsv file associated with those audio files that captures the transcriptions of each one of them. If you open the file you will see that it contains key value pairs where the name of the file is the key and the transcription the actual value. You can .zip those audio files and import them along with the associated transcription file using the ‘Import Acoustic Data’ menu option.
+In addition, the sample contains approximately 50 audio utterances (50 .wav files) which can be used to test the above model using the offline testing feature during deployment. There is a transcriptions.txt file associated with those audio files that captures the transcriptions of each one of them. If you open the file you will see that it contains key value pairs where the name of the file is the key and the transcription the actual value. You can .zip those audio files and import them along with the associated transcription file using the ‘Import Acoustic Data’ menu option.
 
 ### Modelling
 
