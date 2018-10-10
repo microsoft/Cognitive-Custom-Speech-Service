@@ -26,7 +26,7 @@ This will create a zip file containing all wav files without additional folder i
 
 If you do not have Powershell installed you can use a zip tool of your choice but you have to zip the files as a flat list without path information.
 
-Now, you have everthing prepared to get started with [Custom Speech service](http://cris.ai).
+Now, you have everything prepared to get started with [Custom Speech service](http://cris.ai).
 
 There is a [help page](http://cris.ai/help) describing how to use the service or you can find some help [here](https://www.microsoft.com/cognitive-services/en-us/Custom-Speech-Service/documentation/Home).
 
@@ -38,14 +38,14 @@ The biology sample is a great example of how powerful a custom language model ca
 
 ### Data
 
-The sample consist of approximately 150 statements about organisms that lived primarily in Triassic and Jurassic period. The names are in scientific form which rarely appear in everyday language. The facts are described in the ‘Language Data.txt’ file.
-In addition, the sample contains approximately 50 audio utterances (50 .wav files) which can be used to test the above model using the offline testing feature during deployment. There is a transcriptions.tsv file associated with those audio files that captures the transcriptions of each one of them. If you open the file you will see that it contains key value pairs where the name of the file is the key and the transcription the actual value. You can .zip those audio files and import them along with the associated transcription file using the ‘Import Acoustic Data’ menu option.
+The sample consist of approximately 150 statements about organisms that lived primarily in Triassic and Jurassic period. The names are in scientific form, which rarely appear in everyday language. The facts are described in the ‘Language Data.txt’ file.
+In addition, the sample contains approximately 50 audio utterances (50 .wav files) which can be used to test the above model using the offline testing feature during deployment. There is a transcriptions.tsv file associated with those audio files that captures the transcriptions of each one of them. If you open the file, you will see that it contains key value pairs where the name of the file is the key and the transcription the actual value. You can .zip those audio files and import them along with the associated transcription file using the ‘Import Acoustic Data’ menu option.
 
 ### Modelling
 
 You can use the ‘Language Data.txt’ file to create a language model on Custom Speech Service and deploy it along with an acoustic baseline model of the two available. Simply upload the file using the ‘Import Language Data’ and create a new Language model via the ‘Create Language Model’ menu option.
 Once you have created a language model you can deploy it via the ‘Deployments’ menu option.
-During deployment of your custom model you can tick the ‘Offline Test’ option. Point to the acoustic data you uploaded in the previous step. The model deployment process will start and once deployed the audio utterances will be tested against the newly deployed endpoint. The audio utterances will be send for transcription and the results will be displayed. 
+During deployment of your custom model, you can tick the ‘Offline Test’ option. Point to the acoustic data you uploaded in the previous step. The model deployment process will start and once deployed the audio utterances will be tested against the newly deployed endpoint. The audio utterances will be send for transcription and the results will be displayed. 
 
 ### Results
 
