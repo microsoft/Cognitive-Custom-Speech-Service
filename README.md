@@ -1,11 +1,11 @@
 ﻿
 # Cognitive Speech Service samples
 
-Here you can find a set of audio data and language data for testing the [Microsoft Cognitive Services Custom Speech service](http://cris.ai).
+Here you can find a set of audio data and language data for testing Custom Speech with the [Microsoft Azure Cognitive Speech service](http://aka.ms/speechstudio/customspeech). For more information, see the [Custom Spech documentation](https://learn.microsoft.com/en-us/azure/cognitive-services/speech-service/custom-speech-overview).
 
 ## How it works?
 
-The samples are a collection of data, both acoustic and language, which you can use to try out the Custom Speech service. The audio files (.wav) and transcript files should help you to get started with the service.
+The samples are a collection of data, both acoustic and language, which you can use to try out Custom Speech. The audio files (.wav) and transcript files should help you to get started.
 
 Simply clone this repository with 
 ```
@@ -26,9 +26,7 @@ This will create a zip file containing all wav files without additional folder i
 
 If you do not have Powershell installed you can use a zip tool of your choice but you have to zip the files as a flat list without path information.
 
-Now, you have everthing prepared to get started with [Custom Speech service](http://cris.ai).
-
-There is a [help page](http://cris.ai/help) describing how to use the service or you can find some help [here](https://www.microsoft.com/cognitive-services/en-us/Custom-Speech-Service/documentation/Home).
+Now, you have everthing prepared to get started with [Custom Speech](http://aka.ms/speechstudio/customspeech).
 
 ## Biology Sample
 
